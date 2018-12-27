@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Limelight);
+html, body {
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Century Gothic', 'Didact Gothic', sans-serif;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.border-lines {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 30px;
+  width: 40%;
+  
+}
+
+.header-title {
+  text-align: center;
+  margin: 0 3%;
+}
+
+.portfolio-body {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.portfolio-body-image {
+  height: 400px;
+  border: 1px solid white;
+  width: 300px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  overflow-y: none;
+}
+
+.portfolio-body-text {
+  border-radius: 50px;
+  width: 60%;
+  height: 450px;
+}
+
+.see-next {
+  display: flex;
+  justify-content: center;
+}
+
+.see-next-arrow {
+  font-size: 40px;
+}
